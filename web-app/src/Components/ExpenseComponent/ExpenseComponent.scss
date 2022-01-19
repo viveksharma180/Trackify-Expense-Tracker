@@ -1,0 +1,38 @@
+.expense{ // setting styling for container
+  margin: 0.5rem;
+  background: white;
+  font-size: 1.5rem;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+  width: 1200px;
+  border-radius: 10px; 
+}
+
+.expense-1,.expense-2{  // styling for sub-containers
+    display: flex;
+    justify-content: space-around;
+}
+
+.expense li{ // for li items
+    flex:1;
+  list-style: none;
+  
+}
+
+.arrow-btn{ // styling for arrow btn
+    background: #94bbe9;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin: 5px 10px 5px 0;
+}
+
+.expense-title,.expense-category,.expense-amount,.expense-date{
+  padding: 1.5rem 1rem 1rem 1rem;
+
+}

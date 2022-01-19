@@ -1,0 +1,38 @@
+.Navbar { // styling for  header
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 50px;
+    align-items: center;
+    background: rgb(140, 243, 202);
+  background: -moz-linear-gradient(90deg, rgba(174,238,212,1) 15%, rgba(182,182,221,1) 32%, rgba(148,187,233,1) 77%);
+  background: -webkit-linear-gradient(90deg, rgba(174,238,212,1) 15%, rgba(182,182,221,1) 32%, rgba(148,187,233,1) 77%);
+  background: linear-gradient(90deg, rgba(174,238,212,1) 15%, rgba(182,182,221,1) 32%, rgba(148,187,233,1) 77%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aeeed4",endColorstr="#94bbe9",GradientType=1);
+    color: rgb(0, 0, 0);   
+}
+
+.Navbar-Content { //setting margin
+    margin: 0;
+}
+
+.arrow-down { // styling for arrow-down btn
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/* Style the submit button */
+.Navbar button{ // navbar button
+  padding: 10px 20px;
+  background-color: black;
+  border: 1px solid #ddd;
+  color: white;
+  border-radius: 5px;
+}
+
+.Navbar button:hover { //hover animation
+  background-color: rgba(182,182,221,1)
+}

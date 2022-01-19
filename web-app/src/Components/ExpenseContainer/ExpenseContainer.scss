@@ -1,0 +1,44 @@
+.expense-container{ // setting minimum height
+    min-height:100%;
+}
+
+.sort-container{ // for sort-container setting flex display
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 7rem;
+    align-items: center;
+    
+}
+
+.sort-container div{ // setting margin
+    margin: 5px 10px 5px 0;
+}
+
+.display-expenses-or-summary{ // aligning heading summar to center
+    text-align: center;
+}
+
+.display-expenses-or-summary button{ //buttons design 
+    margin: 0px 50px 20px 50px;
+    background: rgba(182,182,221,1);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+//setting animation for buttons 
+.display-expenses-or-summary button:hover, 
+.display-expenses-or-summary button:focus, 
+.display-expenses-or-summary button:active, 
+.display-expenses-or-summary.active, 
+    .open .dropdown-toggle.display-expenses-or-summaryn { 
+      color: #ffffff; 
+      background-color: #000000;
+      // border-color: #19d2d8; 
+    } 
+
+    .expense-list{
+        margin-left: 75px;
+    }
